@@ -21,12 +21,11 @@ void draw()
   
   UpdateWalkers();
   
-  if (mousePressed)
-  {
-    InitializeWalkers();
-  }
-  
-  
+}
+
+void mousePressed()
+{
+  InitializeWalkers();
 }
 
 void InitializeWalkers()
