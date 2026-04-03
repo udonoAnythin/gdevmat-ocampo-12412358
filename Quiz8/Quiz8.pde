@@ -38,7 +38,7 @@ void UpdateWalkers()
 {
   for (int i = 0; i < walkers.length; i++)
   {
-   //walkers[i].ApplyForce(wind);
+   walkers[i].ApplyForce(wind);
    walkers[i].ApplyForce(gravity);
    walkers[i].Update();
    walkers[i].CheckEdges();
