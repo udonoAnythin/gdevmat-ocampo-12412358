@@ -28,7 +28,7 @@ public class Walker
 
    this.velocity.add(this.acceleration);
     
-   velocity.limit(terminalVelocity);
+   //velocity.limit(terminalVelocity);
     
    this.position.add(this.velocity);
    
